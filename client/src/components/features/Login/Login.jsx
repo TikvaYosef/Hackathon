@@ -20,13 +20,13 @@ export default function Login() {
     }, 600)
     return (
         <Stack direction="row" spacing={2}>
-            {user ? <Logout />:
-            
-                <Button variant="outlined" color="error" className='loginbtn' onClick = {googleLogin}>
+            {user ? <Logout /> :
+                <Button onClick = {googleLogin} variant="outlined" color="error" className='loginbtn'>
                     Login with google
                 </Button>
                 
             }
         </Stack>
+       
     );
 }
