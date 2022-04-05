@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Login from './components/features/Login/Login';
+import { LoginPage } from './components/pages/LoginPage/LoginPage';
 
 import FirebaseProvider from './context/FirebaseContext';
 
@@ -8,7 +8,7 @@ function App() {
   return (
     <FirebaseProvider>
       <header className="App-header">
-        <Login />
+        <LoginPage/>
 
       </header>
     </FirebaseProvider>
