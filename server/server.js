@@ -3,6 +3,9 @@ require('./db');
 const express = require('express');
 const app = express();
 const port = process.env.PORT;
+const cors = require('cors');
+app.use(cors());
+app.use(express.json());
 
 const workflowRouter = require('./routes/workflow-process-route');
 
