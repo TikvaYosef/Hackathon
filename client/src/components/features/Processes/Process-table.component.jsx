@@ -3,12 +3,14 @@ import {GetAllProcesses, UpdateProcess} from '../../../services/workflow-process
 import MaterialTable from 'material-table';
 
 const ProcessTable = () => {
+    // const userName = localStorage.getItem('userName')
     const [tableData, setTableData] = useState([]);
 
-    useEffect(() =>{
-        GetAllProcesses()
-        .then(result => setTableData(result));
-    }, [])
+    // const userArray = [];
+    // useEffect(() =>{
+    //     GetAllProcesses()
+    //     .then(result =>  console.log(result));
+    // }, [])
 
     const columns = [
         {title : "Company Name", field :"companyName", filtering:false},
@@ -27,7 +29,6 @@ const ProcessTable = () => {
                     GetAllProcesses()
             .then(result => {setTableData(result); resolve()});
                 })
-        // setTimeout(()=>resolve(), 500);
             })
         }}
         />

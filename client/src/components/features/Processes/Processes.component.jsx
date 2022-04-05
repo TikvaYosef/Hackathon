@@ -9,18 +9,8 @@ const Processes = () => {
 
     return (
         <div>
-            {/* <div> */}
             {/* <AddProcess /> */}
-            {/* </div> */}
-            {/* <div style={{ height: 400, width: '65vw'}}> */}
-      {/* <DataGrid
-        rows={processes}
-        columns={columns}
-        pageSize={5}
-        rowsPerPageOptions={[5]}
-        checkboxSelection
-      /> */}
-    {/* </div> */}
+
       <ProcessTable />
         </div>
     )

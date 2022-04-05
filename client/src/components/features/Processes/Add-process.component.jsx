@@ -14,10 +14,10 @@ import {AddNewProcess} from '../../../services/workflow-process-service';
 
 
 const AddProcess = () => {
-    const userName = localStorage.getItem('userName')
     const [status, setStatus] = useState('');
     const [newTask, setNewTask] = useState({username : userName,processStatus : "progress"});
-
+    
+    const userName = localStorage.getItem('userName');
 
       const createTask = (e) => {
           newTask[e.target.name] = e.target.value;
