@@ -10,8 +10,8 @@ function App() {
   return (
     <FirebaseProvider>
         <Workspace />
-        <LoginPage />
-        <Footer />
+        {/* <LoginPage />
+        <Footer /> */}
     </FirebaseProvider>
   );
 }
