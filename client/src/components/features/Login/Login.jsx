@@ -14,12 +14,17 @@ export default function Login() {
         const googleProvider = new firebase.auth.GoogleAuthProvider();
         auth.signInWithPopup(googleProvider);
     }
+
+    setInterval(() => {
+        if(user) localStorage.setItem('userName', user.displayName);
+    }, 600)
     return (
         <Stack direction="row" spacing={2}>
             {user ? <Logout /> :
                 <Button onClick = {googleLogin} variant="outlined" color="error" className='loginbtn'>
                     Login with google
                 </Button>
+                
             }
         </Stack>
        
