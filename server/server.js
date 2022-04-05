@@ -8,8 +8,10 @@ app.use(cors());
 app.use(express.json());
 
 const workflowRouter = require('./routes/workflow-process-route');
-
+const companiesRouter = require('./routes/companies-process-route');
 app.use('/workflow', workflowRouter);
+app.use('/company',companiesRouter);
+
 
 app.get('/', (req, res) => {
     res.status(200).send('server is online');
