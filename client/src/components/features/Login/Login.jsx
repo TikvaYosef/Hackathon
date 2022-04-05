@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
-import { FirebaseContext } from '../../context/FirebaseContext';
+import { FirebaseContext } from '../../../context/FirebaseContext';
 import firebase from 'firebase/compat/app';
+import Logout from '../Logout/logout';
 import "firebase/compat/auth"
 
 
@@ -15,9 +16,9 @@ export default function Login() {
     return (
         <div>
 
-            {user?.displayName}
-            <br/>
-            <button onClick={googleLogin}> Login  </button>
+            {user? <Logout /> :
+            <button onClick={googleLogin}> Login  </button>         
+        }
         </div>
 
     )
