@@ -22,6 +22,14 @@ export const AddNewProcess =async(process)=>{
         .catch((err) => console.log(err));
     };
 
+
+export const GetProcessById = async (id, process) => {
+  return await fetch(`${BASIC_API}/${id}`)
+    .then((res) => res.json())
+    .catch((err) => console.log(err));
+};
+
+
 export const UpdateProcess = async (id, process) => {
   const options = {
     method: "PUT",
