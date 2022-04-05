@@ -10,3 +10,14 @@
     justify-content: center;
     align-items: center;
 }
+.LogOutBtn{
+ position: relative;
+ bottom: 40vh;
+ left: 30vw;
+ color: black;
+}
+.title{
+font-family: 'Playfair Display', serif;
+font-weight: bolder;
+bottom: 100vh;
+}

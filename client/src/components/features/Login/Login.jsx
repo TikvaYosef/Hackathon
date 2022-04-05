@@ -17,10 +17,11 @@ export default function Login() {
     return (
         <Stack direction="row" spacing={2}>
             {user ? <Logout /> :
-                <Button variant="outlined" color="error" className='loginbtn'>
+                <Button onClick = {googleLogin} variant="outlined" color="error" className='loginbtn'>
                     Login with google
                 </Button>
             }
         </Stack>
+       
     );
 }
