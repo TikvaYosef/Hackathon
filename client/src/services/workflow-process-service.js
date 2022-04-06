@@ -42,10 +42,10 @@ export const UpdateProcess = async (id, process) => {
     .catch((err) => console.log(err));
 };
 
-export const DeleteProcess = async (id, process) => {
+
+export const DeleteProcess = async (id) => {
   const options = {
     method: "Delete",
-    body: JSON.stringify({ ...process }),
     headers: {
       "Content-Type": "application/json",
     },
