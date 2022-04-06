@@ -1,0 +1,21 @@
+.title{
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
+
+}
+.aboutpara{
+   width:30%;
+   font-family: 'Bebas Neue', cursive;
+   
+}
+.LogOutBtn{
+    position: relative;
+    bottom: 55vh;
+    left: 80vw;
+    color: black;
+}
+.aboutContainer{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+}
