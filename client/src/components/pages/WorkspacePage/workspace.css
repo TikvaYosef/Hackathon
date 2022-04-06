@@ -1,0 +1,16 @@
+.processesContainer {
+    width: 70vw;
+    margin-left: 25vw;
+    margin-top: 10vh;
+}
+
+.workspace h1 {
+    font-family: 'BIZ UDMincho', serif;
+font-family: 'Zen Kurenaido', sans-serif;
+font-size: 2em;
+color: gray;
+margin-left: 25vw;
+border-bottom: 2px solid gray;
+width: 13vw;
+margin-top: 5vh;
+}
