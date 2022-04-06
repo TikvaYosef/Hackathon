@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { FirebaseContext } from '../../../context/FirebaseContext';
 import firebase from 'firebase/compat/app';
-import Logout from '../Logout/logout';
+import Logout from '../Logout/Logout';
 import "firebase/compat/auth";
 import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';

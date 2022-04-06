@@ -1,0 +1,29 @@
+
+
+    .Footer {
+    background-color: grey;
+    border-top:2px solid rgb(0, 0, 0);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    color: white;
+    font-size: 25px;
+    font-size: 1rem;
+    opacity: 0.5;
+    }
+    .pFooter{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .footersection{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around; 
+    }
+    .lifooter:hover{
+       font-weight: bold;
+       color: black;   
+    }
+   
+
+    
