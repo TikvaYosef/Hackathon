@@ -7,11 +7,11 @@ import FirebaseProvider from './context/FirebaseContext';
 
 function App() {
   return (
+    <FirebaseProvider>
         <Workspace />
-    // <FirebaseProvider>
-    //     <LoginPage />
-    //     <Footer />
-    // </FirebaseProvider>
+        <LoginPage />
+         {/* <Footer /> */}
+   </FirebaseProvider>
   );
 }
 
