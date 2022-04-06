@@ -1,0 +1,14 @@
+.navbar-link{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+.navbar-list{
+    position: absolute;
+    bottom: 60vh;
+    z-index: 200;
+    list-style: none;
+    font-family: 'BIZ UDMincho', serif;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: 1.5em;
+}

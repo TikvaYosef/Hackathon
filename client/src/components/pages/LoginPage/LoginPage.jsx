@@ -7,7 +7,6 @@ export const LoginPage = () => {
     return (
         <div className="loginpageContainer">
             <Login />
-        
 
         </div>
     )
