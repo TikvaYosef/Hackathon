@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import {GetAllProcesses, UpdateProcess} from '../../../services/workflow-process-service';
-import MaterialTable from 'material-table';
+import MaterialTable from '@mui/material/Table';
 
 const ProcessTable = () => {
     const [tableData, setTableData] = useState([]);
