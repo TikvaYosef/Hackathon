@@ -11,8 +11,9 @@
 .LogOutBtn{
     position: relative;
     bottom: 55vh;
-    left: 80vw;
+    left: 70vw;
     color: black;
+    cursor: pointer;
 }
 .aboutContainer{
      display: flex;

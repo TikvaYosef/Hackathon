@@ -17,7 +17,7 @@ export default function Login() {
 
     setInterval(() => {
         if(user) localStorage.setItem('userName', user.displayName);
-    }, 600)
+    }, 60000)
     return (
         <Stack direction="row" spacing={2}>
             {user ? <Logout /> :
