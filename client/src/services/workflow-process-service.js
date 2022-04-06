@@ -1,11 +1,10 @@
 const BASIC_API="http://localhost:8800/workflow";
 
-export const GetAllProcesses=async () => {
-    try {
-      return await fetch(`${BASIC_API}`).then((res) => res.json());
-    } catch (er) {
-      console.error(er);
-    }
+export const GetAllProcesses= async () => {
+    
+      return await fetch(`${BASIC_API}`)
+      .then((res) => res.json(res))
+      .catch(error => console.log(error))    
   };
   
  

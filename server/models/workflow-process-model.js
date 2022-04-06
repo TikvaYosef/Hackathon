@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
-const schama = mongoose.Schema;
+const Schema = mongoose.Schema;
 
-const ProcessWorkflow = new schama(
+const ProcessWorkflow = new Schema(
   {
     username : { type: String, required: true},
     companyName: { type: String, required: true },

@@ -15,7 +15,7 @@ const FirebaseProvider = ({ children }) => {
     const [auth, setAuth] = useState(null);
     
     useEffect(() => {
-        setAuth(firebaseAuth)
+           return setAuth(firebaseAuth);
     }, [])
 
     return (

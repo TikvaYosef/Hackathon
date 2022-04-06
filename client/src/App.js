@@ -8,10 +8,10 @@ import FirebaseProvider from './context/FirebaseContext';
 function App() {
   return (
     <FirebaseProvider>
-        <Workspace />
-        {/* <LoginPage />
-        <Footer /> */}
-    </FirebaseProvider>
+    <Workspace />
+      {/* <LoginPage />
+       <Footer /> */}
+   </FirebaseProvider>
   );
 }
 
