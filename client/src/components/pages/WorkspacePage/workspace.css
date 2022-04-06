@@ -11,6 +11,12 @@ font-size: 2em;
 color: gray;
 margin-left: 25vw;
 border-bottom: 2px solid gray;
-width: 13vw;
+width: 17vw;
 margin-top: 5vh;
+}
+
+.addProcessContainer {
+    margin-left: 20vw;
+    margin-top: 15vh;
+    margin-bottom: 47vh;
 }

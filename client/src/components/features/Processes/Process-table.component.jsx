@@ -56,6 +56,7 @@ const ProcessTable = () => {
   ];
   return (
     <MaterialTable
+    className = "tableContainer"
       columns={columns}
       data={tableData}
       title="My Flow"
